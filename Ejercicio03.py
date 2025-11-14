@@ -12,8 +12,8 @@ plt.ylabel("Temperatura (°C)", fontsize=12)
 plt.grid(True, linestyle='--', alpha=0.5)
 plt.legend(fontsize=12)
 
-# Añadir etiquetas a cada punto
 for i, temp in enumerate(temperatures):
     plt.text(i, temp + 2, str(temp), ha='center', fontsize=10)
+
 
 plt.show()
